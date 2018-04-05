@@ -4,7 +4,7 @@
 @section('stylesheet', 'css/home.css')
 
 @section('body')
-    <form action="getData">
+    <form action="transferProducts">
         <h1>Get Data</h1>
         <input type="submit" value="Go">
     </form>

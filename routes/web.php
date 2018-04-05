@@ -15,5 +15,5 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/getData', 'ApiController@getData');
+Route::get('/transferProducts', 'ApiController@transferProducts');
 
